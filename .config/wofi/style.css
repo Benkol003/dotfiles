@@ -1,0 +1,54 @@
+@define-color purple  #ce7dff;
+@define-color black   #111111;
+@define-color gray    #1a1a1a;
+@define-color white   #ffffff;
+* {
+    font-family: "Hack", monospace;
+}
+
+window {
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+#input {
+    margin: 5px;
+    border-radius: 0px;
+    border: none;
+    background-color: @black;
+    color: @white;
+}
+
+#inner-box {
+    background-color: @gray;
+}
+
+#outer-box {
+    margin: 2px;
+    padding: 10px;
+    background-color: @black;
+    border-radius: 10px;
+    border: 3px solid @purple
+}
+
+#scroll {
+    margin: 5px;
+}
+
+#text {
+    padding: 4px;
+    color: @white;
+}
+
+#entry:nth-child(even){
+    background-color: @black;
+}
+
+#entry:selected {
+    background-color: @purple;
+}
+
+#text:selected {
+    background: transparent;
+    color: @black;
+}
