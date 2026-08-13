@@ -3,3 +3,4 @@ hide_scroll=true
 no_actions=false
 term=wezterm
 mode=drun
+close_on_focus_loss=true

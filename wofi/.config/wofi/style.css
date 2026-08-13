@@ -1,7 +1,7 @@
 @define-color purple  #ce7dff;
 @define-color black   #111111;
 @define-color gray    #1a1a1a;
-@define-color white   #ffffff;
+@define-color white   #ffffffaa;
 * {
     font-family: "Hack", monospace;
 }
